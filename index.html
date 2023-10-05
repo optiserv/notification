@@ -149,7 +149,7 @@
           const text = `HEY! Your task is now overdue.`;
           const notification = new Notification("To do list", { body: text });
 
-          notification.addEventListener("show", (event) => { alert('Hello') });
+          notification.addEventListener("show", (event) => { console.log('Hello') });
 
         }
 
